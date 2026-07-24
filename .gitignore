@@ -1,0 +1,22 @@
+# Dipendenze / build
+node_modules/
+dist/
+build/
+out/
+target/
+.angular/
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.sqlite3
+# Ambiente e segreti
+.env
+.env.*
+!.env.example
+credentials.py
+# Sistema / IDE
+.DS_Store
+.idea/
+.vscode/
